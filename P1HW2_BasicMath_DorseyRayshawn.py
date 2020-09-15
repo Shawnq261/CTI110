@@ -10,9 +10,9 @@ firstNumber = 2
 Kos_num2 = int(input('Please Enter second number:')) #Type in number 2 from your keypad after display#
 secondNumber = 2
 
-print('first number entered:' , firstNumber) #Line 7 is displaying the number that was entered from line 2#
+print('first number entered:' , firstNumber) #Line 13 is displaying the number that was entered from line 8#
 
-print('second number entered:' , secondNumber) #Line 9 is displaying the number that was entered from line 5#
+print('second number entered:' , secondNumber) #Line 15 is displaying the number that was entered from line 11#
 
 print('\n') #this is a new line to separate the code above
 

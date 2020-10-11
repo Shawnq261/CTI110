@@ -1,0 +1,19 @@
+#Rayshawn Dorsey
+#Ms. Seidi
+#11 October 2020
+#CTI-110 P2HW1 Tip Calculator
+
+user_charge = float (input ("Enter Food Cost:")) #Display Food Cost
+user_tip = float (input ("Enter Tip Percentage:")) #Display Tip Percentage
+user_tax = float (input ("Enter Tax Percentage:")) #Display Tax Percentage 
+
+print () #New Line
+
+print ("Calculated Tip:", user_tip) #Executes tip percentage
+print ("Calculated Tax:", user_tax) #Executes tax percentage
+
+total_cost = user_charge + user_tip + user_tax #Total cost of meal
+
+print () #New Line
+print ("Total cost including tip and tax:", total_cost) #Execution of total meal charge with tip and tax
+

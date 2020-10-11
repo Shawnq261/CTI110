@@ -1,0 +1,23 @@
+#Rayshawn Dorsey
+#Ms. Seidi
+#11 October 2020
+#CTI-110 P2HW2 Lists and Sets
+
+user_list = list(input("Please enter a series of 10 numbers:")) #Show the list of numbers 
+list = [1,2,3,4,5,6,7,8,9,10] #list of numbers
+
+print ("\n")
+
+lowestNum = min(user_list) #Show minimum of user_list
+print("The lowest number:", lowestNum) #Display minimum number 
+
+highestNum = max(user_list) #Show maximum of user_list
+print("The highest number:", highestNum) #Display maximum number
+
+print()
+
+totalNum = len(user_list) #Show total number of user_list
+print("The total number:", totalNum) #Display total number 
+
+user_set = set{(user_list)} #Show set from user_list
+print("List converted into set:", user_set) #Display list converted to set
